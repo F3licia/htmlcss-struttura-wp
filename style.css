@@ -1,0 +1,70 @@
+*:not(.azure){
+    padding:0px;
+    border:0px;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+
+.fuchsia {
+    height: 100px;
+    width: 80%;
+    background-color: #e579e6; 
+}
+
+.yellow {
+    height: 600px;
+    width: 80%;
+    background-color: #e1d67a;
+}
+
+.blue {
+    height: 600px;
+    width: 80%;
+    background-color: #0086ff;
+    
+    
+}
+  .blue.clearfix::after {
+      content: "";
+      display: table;
+      clear:both ;
+  }
+
+  .azure {
+    background-color: #abcfe7;
+    padding:0px;
+    border:0px;
+  }
+     
+  #row.azure {
+    height: 50px;
+    width: 100%;
+}
+
+  #column1{
+     width: 215px;
+     height: 500px;
+     margin: 15px 5px 10px 0px;
+     float:left;  
+}
+
+   #column2 {
+    width: 658px;
+    height: 500px;
+    margin: 15px 10px 10px 10px;
+    float:left;
+}
+
+#column3 {
+    width: 215px;
+    height: 500px;
+    margin: 15px 0px 10px 5px;
+    float:right;
+}
+
+  .purple {
+    height: 100px;
+    width: 80%;
+    background-color: #8801fe;; 
+}
