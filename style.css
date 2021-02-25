@@ -1,7 +1,7 @@
 *:not(.azure){
     padding:0px;
     border:0px;
-    margin: 30px;
+    margin: 30px 30px 30px 70px;
     box-sizing: border-box;
 }
 
@@ -45,21 +45,21 @@
   #column1{
      width: 215px;
      height: 500px;
-     margin: 15px 5px 10px 0px;
+     margin: 25px 5px 10px 0px;
      float:left;  
 }
 
    #column2 {
-    width: 658px;
+    width: 595px;
     height: 500px;
-    margin: 15px 10px 10px 10px;
+    margin: 25px 10px 10px 10px;
     float:left;
 }
 
 #column3 {
     width: 215px;
     height: 500px;
-    margin: 15px 0px 10px 5px;
+    margin: 25px 0px 10px 5px;
     float:right;
 }
 
