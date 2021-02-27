@@ -1,69 +1,74 @@
-*:not(.azure){
+*{
     padding:0px;
     border:0px;
-    margin: 30px 30px 30px 70px;
+    margin: auto;
     box-sizing: border-box;
 }
 
 
-.fuchsia {
+body div{
+    margin-top: 2%;
+}
+
+#header {
     height: 100px;
     width: 80%;
     background-color: #e579e6; 
 }
 
-.yellow {
+#first-container {
     height: 600px;
     width: 80%;
     background-color: #e1d67a;
 }
 
-.blue {
+#sec-container {
     height: 600px;
     width: 80%;
     background-color: #0086ff;
     
     
 }
-  .blue.clearfix::after {
+  #sec-container.clearfix::after {
       content: "";
       display: table;
       clear:both ;
   }
 
-  .azure {
+  .article {
     background-color: #abcfe7;
     padding:0px;
     border:0px;
   }
      
-  #row.azure {
+  #row.article {
     height: 50px;
     width: 100%;
 }
 
+
+
   #column1{
-     width: 215px;
+     width: 25%;
      height: 500px;
-     margin: 25px 5px 10px 0px;
      float:left;  
 }
 
    #column2 {
-    width: 595px;
+    width: 40%;
     height: 500px;
-    margin: 25px 10px 10px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     float:left;
 }
 
 #column3 {
-    width: 215px;
+    width: 25%;
     height: 500px;
-    margin: 25px 0px 10px 5px;
-    float:right;
+    float:left;
 }
 
-  .purple {
+  #footer {
     height: 100px;
     width: 80%;
     background-color: #8801fe;; 
